@@ -1,0 +1,42 @@
+[debug] [2019-07-23T16:40:48.114Z] ----------------------------------------------------------------------
+[debug] [2019-07-23T16:40:48.117Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Makerspace\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2019-07-23T16:40:48.118Z] CLI Version:   7.1.1
+[debug] [2019-07-23T16:40:48.118Z] Platform:      win32
+[debug] [2019-07-23T16:40:48.118Z] Node Version:  v10.16.0
+[debug] [2019-07-23T16:40:48.119Z] Time:          Tue Jul 23 2019 12:40:48 GMT-0400 (Eastern Daylight Time)
+[debug] [2019-07-23T16:40:48.119Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-23T16:40:48.131Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-23T16:40:48.132Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Makerspace\Documents\activst\project\src
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2019-07-23T16:41:25.603Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-07-23T16:41:25.604Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-07-23T16:41:25.758Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-23T16:41:25.768Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?page_size=100  
+ 
+[debug] [2019-07-23T16:41:26.056Z] <<< HTTP RESPONSE 200
+[info] i  Using project octocat-ae27c (project sdgg)
+[info] 
+=== Database Setup
+[info] 
+[info] Firebase Realtime Database Rules allow you to define how your data should be
+[info] structured and when your data can be read from and written to.
+[info] 
